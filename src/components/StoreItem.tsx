@@ -11,13 +11,13 @@ type StoreItemProps = {
 
 export function StoreItem(props: StoreItemProps) {
   const { id, name, price, imgUrl } = props
-
   const {
     getItemQuantity,
     increaseCartQuantity,
     decreaseCartQuantity,
     removeFromCart
   } = useShoppingCart()
+
   const quantity = getItemQuantity(id)
 
   return (
