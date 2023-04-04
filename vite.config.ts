@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/shopping-cart",
-  publicDir: 'shopping-cart',
+  base: "/shopping-cart/", // as per the docs
   plugins: [react()],
 })
