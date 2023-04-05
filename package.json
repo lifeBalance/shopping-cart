@@ -6,7 +6,7 @@
   "homepage": "https://lifebalance.github.io/shopping-cart/",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "PUBLIC_URL=https://lifebalance.github.io/shopping-cart/ tsc && vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
