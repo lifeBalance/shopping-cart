@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://lifebalance.github.io/shopping-cart/",
+  "homepage": "/shopping-cart/",
   "scripts": {
     "dev": "vite",
-    "build": "PUBLIC_URL=https://lifebalance.github.io/ tsc && vite build",
+    "build": "tsc && vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
